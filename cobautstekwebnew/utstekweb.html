@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekweb Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .note {
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .padding {
+            padding: 50px;
+        }
+        .padding_top {
+            padding-top: 30px;
+        }
+        .padding_top2 {
+            padding-top: 50px;
+        }
+        .padding_left {
+            padding-left: 350px;
+        }
+        .padding_bottom {
+            padding-bottom: 100px;
+        }
+        .padding_right {
+            padding-right: 350px;
+        }
+        .font_size {
+            font-size: 20px;
+        }
+        .font_size_small {
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Pane -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand font_size_small" href="#"><b>TEKNOLOGI WEBSITE</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item font_size_small"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item font_size_small"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item font_size_small"><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Page -->
+     <div style="background-color: rgb(51, 207, 170);">
+        <div class="container padding">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <img src="img/img/avataaars.svg" class="" alt="">
+                </div>
+                <div class="col-md-12 text-center">
+                    <h1 class="text-white padding_top"><b>UTS TEKNOLOGI WEBSITE</b></h1>
+                    <h2 class="text-white">------- <i class="bi bi-star-fill"></i> -------</h2>
+                    <p class="lead text-white">HTML - Bootstraps - JavaScript</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio" class="container py-5">
+        <h2 class="text-center padding-top"><b>PORTFOLIO</b></h2>
+        <h3 class="text-center">------- <i class="bi bi-star-fill"></i> -------</h3>
+        <div class="container-fluid padding_top">
+            <div class="row">
+                <div class="col">
+                    <img src="img/img/cabin.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal1" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img/cake.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal2" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img/circus.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal3" alt="">
+                </div>
+            </div>
+            <div class="text-white">abcd</div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/img/safe.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal4" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img/submarine.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal5" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/img/game.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal6" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/cabin.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/cake.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/circus.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/safe.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/submarine.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <!-- Icon Divider-->
+                                <h2>------- <i class="bi bi-star-fill"></i> -------</h2>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="img/img/game.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: rgb(46, 159, 142); border-color: aliceblue;">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <section id="about">
+        <div style="background-color: rgb(51, 207, 170);">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-white padding_top2"><b>ABOUT</b></h1>
+                        <h2 class="text-white">------- <i class="bi bi-star-fill"></i> -------</h2>
+                    </div>
+                    <div class="row justify-content-center padding_top padding_bottom">
+                        <div class="col-lg-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nisi atque quibusdam voluptas modi delectus consectetur commodi et pariatur nulla voluptates temporibus quaerat quae laudantium sed illum sint, incidunt itaque?</div>
+                        <div class="col-lg-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi illum error fugit iusto optio temporibus totam voluptatem deleniti hic cumque mollitia odio eligendi soluta beatae placeat obcaecati, modi eum.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="container-fluid">
+            <h1 class="text-center padding_top2"><b>CONTACT ME</b></h1>
+            <h2 class="text-center">------- <i class="bi bi-star-fill"></i> -------</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 padding_top2 padding_bottom" style="text-align: center;">
+                    <button id="buttoncontact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" style="background-color: rgb(51, 207, 170); border-color: rgb(51, 207, 170);">
+                        Contact !</button>
+                </div>
+            </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="contactModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <!-- Modal Header -->
+                <div class="modal-header" style="background-color: rgb(51, 207, 170);">
+                <h4 class="modal-title">Contact !</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                
+                <!-- Modal Body -->
+                <div class="modal-body">
+                <form id="contactForm">
+                    <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Message Title" required>
+                    </div>
+                    <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Message Notes" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                    <label for="color" class="form-label">Color</label>
+                    <select class="form-select" id="color" required>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Green">Green</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
+                        <option value="White">White</option>
+                    </select>
+                    </div>
+                </form>
+                </div>
+        
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-success" style="border-color: rgb(51, 207, 170); background-color: rgb(51, 207, 170);" id="sendMessageBtn">Send Message</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        
+        <div style="background-color: rgb(28, 41, 71);">
+            <div class="row justify-content-center padding">
+                <div class="col-lg-4 text-center">
+                    <h1 class="text-white padding_top2 font_size"><b>LOCATION</b></h1>
+                    <br>
+                    <p class="text-white text-center">Petra Christian University Jl.Siwalankerto No.121-131, Siwalankerto, Kec. Wonocolo, Surabaya, Jawa Timur 60236</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h1 class="text-white padding_top2 font_size"><b>AROUND THE WEB</b></h1>
+                    <br>
+                    <div class="d-flex justify-content-center">
+                        <a class="nav-link text-white me-3" href="https://www.facebook.com/?locale=id_ID" ><i class="bi bi-facebook"></i></a>
+                        <a class="nav-link text-white me-3" href="https://twitter.com/?lang=id"><i class="bi bi-twitter"></i></a>
+                        <a class="nav-link text-white me-3" href="https://id.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                        <a class="nav-link text-white" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h1 class="text-white padding_top2 font_size"><b>ABOUT WEB TECHNOLOGY</b></h1>
+                    <br>
+                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem quis minus, est explicabo ratione non neque eum doloremque libero voluptas corporis adipisci odio voluptatum, aliquam deleniti voluptatibus nam recusandae?</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        
+      </script>
+    <script src="portofolio1.html"></script>
+    <script src="portofolio2.html"></script>
+    <script src="portofolio3.html"></script>
