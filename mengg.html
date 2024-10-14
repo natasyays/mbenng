@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HADRUHH</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- buat css bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- buat icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+
+    <style>
+      body {
+        padding-top: 56px;
+      }
+      .note {
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+      .padding {
+        padding: 50px;
+      }
+      .padding_top {
+        padding-top: 30px;
+      }
+      .padding_top2 {
+        padding-top: 50px;
+      }
+      .padding_left {
+        padding-left: 350px;
+      }
+      .padding_bottom {
+        padding-bottom: 100px;
+      }
+      .padding_right {
+        padding-right: 350px;
+      }
+      .font_size {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand font_size_small" href="#"><b>TEKNOLOGI WEBSITE</b></a>
+        <!-- hamburgur icon -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- list name -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item font_size_small"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+            <li class="nav-item font_size_small"><a class="nav-link" href="#about">ABOUT</a></li>
+            <li class="nav-item font_size_small"><a class="nav-link" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- TOP PAGE -->
+    <div style="background-color: rgb(15, 77, 69);">
+        <div class="container padding">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <img src="img/img/avataaars.svg">
+                </div>
+                <div class="col-md-12 text-center">
+                    <h1 class="text-white padding_top" style="padding-top: 50px;"><b>UTS TEKNOLOGIII WEBBB</b></h1>
+                    <h2 class="text-white">----------<i class="bi bi-star-fill"></i>----------</h2>
+                    <p class="lead text-white">HTML - Bootstrap - JavaScript</p> 
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <!-- PORTOFOLIO PAGE -->
+     <section id ="portfolio" class="container py-5">
+        <h2 class="text-center padding-top"><b>PORTFOLIO</b></h2>
+        <h3 class="text-center">----------<i class="bi bi-star-fill">----------</i></h3>
+        <!-- gambar -->
+        <div class="container-fluid padding_top">        
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/cabin.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portfolioModal1" >
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/cake.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portoModal2">
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/circus.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portoModal3">
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/safe.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portoModal4">
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/submarine.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portoModal5">
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                    <img src="img/img/game.png" class="card-img-top" data-bs-toggle="modal" data-bs-target="#portoModal6">
+                </div>
+            </div>
+        </div>
+     </section>
+      
+     <!-- PORTO MODAL 1 -->
+     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+             <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close"type="button"data-bs-dismiss="modal"aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Title -->
+                                    <h2 class="portfolio-modal-title text-secondary">LOG CABIN</h2>
+                                    <!-- Icon -->
+                                    <h2>----- <i class="bi bi-star-fill"></i> -----</h2>
+                                    <!-- Image -->
+                                    <img class="img-fluid rounded mb-5" src="img/img/cabin.png"/>
+                                    <!-- Text -->
+                                    <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <!-- Button Close -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: blueviolet; border-color: aliceblue">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT PAGE -->
+    <section>
+        <div style="background-color:rgb(15, 77, 69); padding-bottom: 100px; padding-top: 60px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-white padding_top2"><b>ABOUT</b></h1>
+                        <h2 class="text-white">--------<i class="bi-star-fill">--------</i></h2>
+                    </div>
+                    <div class="row justify-content-center padding_top padding_bottom">
+                        <div class="col-lg-4 text-white">PLEASE LORD, MAKE ME THE BIGGEST STAR IN THE WORLD HAS EVER KNOWN, SO THAT I'LL MAKE IT FAR, FAR AWAY FROM THIS PLACE.</div>
+                        <div class="col-lg-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi illum error fugit iusto optio temporibus totam voluptatem deleniti hic cumque mollitia odio eligendi soluta beatae placeat obcaecati, modi eum.</div>
+                    </div>
+                </div>
+            </div>     
+        </div>        
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section id="contact" class="container-fluid" style="padding-bottom: 50px;">
+        <div class="container">
+            <h1 class="text-center padding_top2" style="padding-top: 50px;"><b>CALL ME, WILL YOU?</b></h1>
+            <h2 class="text-center"><b>--------<i class="bi bi-star-fill">--------</i></b></h2>
+            <div class="text-center mt-4">
+                <div id="notes-container" class="d-flex flex-wrap justify-content-start me-2">
+                    <!-- Kartu akan ditambahkan di sini -->
+                </div>
+                <button id="buttoncontact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" style="background-color: rgb(15, 77, 69); border-color: rgb(15, 77, 69);">
+                        Pleaseeeee?!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true" style="padding-bottom: 50px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- header -->
+                <div class="modal-header" style="background-color: rgb(15, 77, 69);">
+                    <h4 class="modal-title text-white" id="contactModalLabel">Contact Me!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- body -->
+                <div class="modal-body">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="title" placeholder="Message Title" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message Notes" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="color" class="form-label">Color</label>
+                            <select class="form-select" id="color" required>
+                                <option value="bg-warning">Yellow</option>
+                                <option value="bg-success">Green</option>
+                                <option value="bg-primary">Blue</option>
+                                <option value="bg-danger">Red</option>
+                                <option value="bg-light text-dark">White</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="editMessageBtn">Edit</button>
+                    <button type="submit" class="btn btn-success" style="border-color: rgb(15, 77, 69); background-color: rgb(15, 77, 69);" id="sendMessageBtn">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- address dll -->
+    <div style="background-color: rgb(28, 41, 71); padding-top: 50px; padding-bottom: 50px;">
+        <div class="row justify-content-center padding">
+            <div class="col-lg-4 text-center">
+                <h1 class="text-white padding_top2 font_size"><b>LOCATION</b></h1>
+                <br>
+                <p class="text-white text-center">Petra Christian University Jl.Siwalankerto No.121-131, Siwalankerto, Surabaya</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h1 class="text-white padding_top2 font_size"><b>AROUND THE WEB</b></h1>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <a class="nav-link text-white me-3" href="https://www.facebook.com/?locale=id_ID" ><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link text-white me-3" href="https://twitter.com/?lang=id"><i class="bi bi-twitter"></i></a>
+                    <a class="nav-link text-white me-3" href="https://id.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+                    <a class="nav-link text-white" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h1 class="text-white padding_top2 font_size"><b>ABOUT WEB TECHNOLOGY</b></h1>
+                <br>
+                <p class="text-white text-center">BOOMBASTIC, PUSING SUMPAH</p>
+            </div>
+        </div>
+    </div>
+
+<body>
+
+    <script>
+        let editingCard = null; // Untuk menyimpan kartu yang sedang diedit
+    
+        // Fungsi untuk menambahkan kartu baru
+        document.getElementById('sendMessageBtn').addEventListener('click', function() {
+            const title = document.getElementById('title').value;
+            const message = document.getElementById('message').value;
+            const color = document.getElementById('color').value;
+    
+            const newCard = document.createElement('div');
+            newCard.classList.add('note-card', 'col-2','col-md-3');
+            // Menangani kasus khusus untuk warna putih
+            if (color === 'bg-light text-dark') {
+            newCard.classList.add('bg-light', 'text-dark');
+            } else {
+            newCard.classList.add(color);
+            }
+            
+            newCard.innerHTML = `<h5>${title}</h5><p>${message}</p>`;
+            newCard.addEventListener('click', editNote);
+
+            //append ke div bagian id = notes-container yg sudah dibuatkan pada saat pembuatan space untuk mencantumkan kartu
+            document.getElementById('notes-container').appendChild(newCard);
+    
+            resetForm();
+        });
+    
+        // Fungsi untuk mengedit kartu yang sudah ada
+        function editNote() {
+            editingCard = this; // Simpan referensi ke kartu yang sedang diedit
+            const title = this.querySelector('h5').textContent;
+            const message = this.querySelector('p').textContent;
+            const colorClass = [...this.classList].find(cls => cls.startsWith('bg-'));
+    
+             // Menangani kasus khusus untuk warna putih
+            if (this.classList.contains('bg-light') && this.classList.contains('text-dark')) {
+            colorClass = 'bg-light text-dark';
+            }
+    
+            // Isi form dengan data dari kartu
+            document.getElementById('title').value = title;
+            document.getElementById('message').value = message;
+            document.getElementById('color').value = colorClass;
+    
+            // Ubah tombol modal menjadi "Edit"
+            document.getElementById('sendMessageBtn').classList.add('d-none');
+            document.getElementById('editMessageBtn').classList.remove('d-none');
+    
+            // Buka modal
+            const modal = new bootstrap.Modal(document.getElementById('contactModal'));
+            modal.show();
+        }
+    
+        // Fungsi untuk menyimpan perubahan ke kartu
+        document.getElementById('editMessageBtn').addEventListener('click', function() {
+            const title = document.getElementById('title').value;
+            const message = document.getElementById('message').value;
+            const color = document.getElementById('color').value;
+    
+            // Update kartu yang sedang diedit
+            editingCard.querySelector('h5').textContent = title;
+            editingCard.querySelector('p').textContent = message;
+            editingCard.classList.remove(...editingCard.classList); // Hapus semua class
+            editingCard.classList.add('note-card', 'col-2','col-md-3', color);
+    
+            // Menangani kasus khusus untuk warna putih
+            if (color === 'bg-light text-dark') {
+            editingCard.classList.add('bg-light', 'text-dark');
+            } else {
+            editingCard.classList.add(color);
+            }
+    
+            resetForm();
+        });
+    
+        // Fungsi untuk mereset form
+        function resetForm() {
+            document.getElementById('contactForm').reset();
+            document.getElementById('sendMessageBtn').classList.remove('d-none');
+            document.getElementById('editMessageBtn').classList.add('d-none');
+            const modal = bootstrap.Modal.getInstance(document.getElementById('contactModal'));
+            modal.hide();
+            editingCard = null;
+        }
+    </script>
+</html>
